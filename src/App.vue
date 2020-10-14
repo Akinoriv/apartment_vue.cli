@@ -25,14 +25,7 @@
     <catalog/>
 
     <footer class="footer">
-      <div class="footer__links">
-        <!-- <img class="logo" src="https://github.com/Akinoriv/Redsoft-test/blob/master/my-project/src/assets/logo-museum%202.png?raw=true">  -->
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item"> Contacts </li>
-          </ul>
-        </nav>
-      </div>
+      <h2 class="footer__name"> Contacts </h2>
     </footer>
 
   </div>
@@ -57,14 +50,10 @@ export default {
 
 .header {
   padding: 12px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   background: #222222;
   border-bottom: 1px solid #E1E1E1;
   display: flex;
-
   width: auto;
-  /* max-width: 1400px; */
   justify-content: space-around;
   position: fixed;
   top: 0px;
@@ -76,42 +65,23 @@ export default {
     padding-left: 8px;
   }
 }
-.search__button {
-  /* padding-left: 24px; */
-  border: none;
-  height: 48px;
-  width: 122px;
-  background-color:#4F4F4F;
-  color: #F4F6F9;
-  Font-Family: Merriweather;
-  Font-Style: Bold;
-  Font-Size: 14px;
-  Line-Height: 21px;
-  Line-Height: 150%;
-  /* justify-content: space-evenly; */
-  justify-content:right;
-}
 
-.search__input {
-  padding-left: 16px;
-  border: 1px solid #E1E1E1;
-  box-sizing: border-box;
-  height: 48px;
-  width: 294px;
-  background-color: rgb(246, 243, 243);
-  color: #9F9F9F;
-  align-self : Inside;
-  Font-Family: Merriweather;
-  Font-Style: normal;
-  Font-Size: 14px;
-  Line-Height: 21px;
-  Line-Height: 150%;
-}
 
 .logo {
   height: 58px;
   border: none;
   align-self: center;
+}
+@media only screen and (max-width:1066px) {
+  .logo{
+    display:none;
+  }
+}
+
+@media only screen and (max-width:901px) {
+  .menu{
+    display:none;
+  }
 }
 
 .menu__list {
@@ -119,23 +89,55 @@ export default {
   padding-left: 24px;
   display: flex;
   list-style-type: none;
+  .menu__list-item{
+    margin-left: 24px;
+    margin-right: 24px;
+    align-self: center;
+    justify-content:start;  
+  }
 }
 
-.menu__list-item{
-  margin-left: 24px;
-  margin-right: 24px;
-  align-self: center;
-  justify-content:start;  
+.search__button {
+  border: none;
+  height: 48px;
+  width: 122px;
+  background-color:#4F4F4F;
+  color: #F4F6F9;
+  font-Family: Merriweather;
+  font-Size: 14px;
+  line-Height: 150%;
+  justify-content:right;
 }
-
+.search__input {
+  padding-left: 16px;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  height: 48px;
+  width: 294px;
+  background-color: rgb(246, 243, 243);
+  color: 222222;
+  align-self : Inside;
+  font-Family: Merriweather;
+  font-Size: 14px;
+  line-Height: 150%;
+  justify-content:right;
+}
+@media only screen and (max-width:901px) {
+  .search {
+    width: 90%;
+    .search__input {
+      width: 70%;
+    }
+    .search__button {
+      width: 30%;
+    }
+  }
+}
 
 .footer {
-  /* height: 96px; */
-  // padding: 24px;
   background:#222222;
   display: flex;
-
-  // position: fixed;
+  position: fixed;
 	left: 0;
   right: 0;
 	bottom: 0;
@@ -143,37 +145,16 @@ export default {
   justify-content: space-around;
 }
 
-.footer__links {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 27px;
-}
-
-.foter__contacts{
-  /* justify-content: space-between; */
-  display: flex;
-}
-
-.foter__contacts-img {
-  border: none;
+.footer__name {
+  text-transform: uppercase; 
+  color: #F4F6F9;
+  font-size: 16px;
   align-self: center;
-  width: auto;
-  height: 14px;
-}
-
-.foter__contacts-name {
-  text-decoration: none;
-  margin-left: 24px;
-  margin-right: 24px;
-  align-self: center;
-  justify-content: start;  
-  color: #555555;
 }
 
 h1 {
   font-weight: bold;
   font-size: 24px;
-  /* line-height: 1.7; */
  }
 
 h2 {
@@ -182,23 +163,8 @@ h2 {
  }
 
 h3 {
-  font-weight: bold;
-  font-size: 16px;
- }
-
-h4 {
-  font-weight: bold;
-  font-size: 14px;
- }
-
-h5 {
-  font-weight: normal;
-  font-size: 14px;  
- }
-
-h6 {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
  }
 
 #app {
@@ -219,8 +185,6 @@ h6 {
   max-width: 1258px;
 
   height: 100%;
-
-  
-  /* padding: 0 calc(50% - 610px); */
 }
+
 </style>

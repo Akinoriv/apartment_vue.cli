@@ -22,6 +22,7 @@
         }
       },
       {
+        "like": false,
         "type": "квартира",
         "id": 2,
         "attributes": {
@@ -42,6 +43,7 @@
         }
       },
       {
+        "like": false,
         "type": "квартира",
         "id": 3,
         "attributes": {
@@ -50,7 +52,7 @@
           "area": 134
         },
 
-        "img": "https://uutvdome.ru/_pu/0/35229685.jpg",
+        "img": "http://www.mirlandshaft.ru/wp-content/uploads/2018/06/63-1.jpg",
         "relationships": {
           "type": "agent",
           "id": 44,
@@ -62,8 +64,9 @@
         }
       },
       {
+        "like": false,
         "type": "квартира",
-        "id": 1,
+        "id": 4,
         "attributes": {
           "title": "Просторная",
           "rooms": 3,
@@ -82,8 +85,9 @@
         }
       },
       {
+        "like": false,
         "type": "квартира",
-        "id": 2,
+        "id": 5,
         "attributes": {
           "title": "Уютная",
           "rooms": 2,
@@ -102,8 +106,9 @@
         }
       },
       {
+        "like": false,
         "type": "квартира",
-        "id": 3,
+        "id": 6,
         "attributes": {
           "title": "Шикарная",
           "rooms": 4,
