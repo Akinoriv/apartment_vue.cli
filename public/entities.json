@@ -1,0 +1,125 @@
+{
+    "response": [
+      {
+        "like": false,
+        "type": "квартира",
+        "id": 1,
+        "attributes": {
+          "title": "Просторная",
+          "rooms": 3,
+          "area": 134
+        },
+
+        "img": "https://moscow-oblast.sm-news.ru/wp-content/uploads/2020/06/08/greatertorontobuilders.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 2,
+          "attributes": {
+            "first_name": "Василий",
+            "last_name": "Дроздов",
+            "middle_name": "Михайлович"
+          }
+        }
+      },
+      {
+        "type": "квартира",
+        "id": 2,
+        "attributes": {
+          "title": "Уютная",
+          "rooms": 2,
+          "area": 34
+        },
+
+        "img": "https://img3.goodfon.ru/original/1920x1408/6/33/interer-stil-dizayn-3092.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 10,
+          "attributes": {
+            "first_name": "Михаил",
+            "last_name": "Иванов",
+            "middle_name": "Демидович"
+          }
+        }
+      },
+      {
+        "type": "квартира",
+        "id": 3,
+        "attributes": {
+          "title": "Шикарная",
+          "rooms": 4,
+          "area": 134
+        },
+
+        "img": "https://uutvdome.ru/_pu/0/35229685.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 44,
+          "attributes": {
+            "first_name": "Степан",
+            "last_name": "Карачаев",
+            "middle_name": "Иванович"
+          }
+        }
+      },
+      {
+        "type": "квартира",
+        "id": 1,
+        "attributes": {
+          "title": "Просторная",
+          "rooms": 3,
+          "area": 134
+        },
+
+        "img": "https://moscow-oblast.sm-news.ru/wp-content/uploads/2020/06/08/greatertorontobuilders.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 2,
+          "attributes": {
+            "first_name": "Василий",
+            "last_name": "Дроздов",
+            "middle_name": "Михайлович"
+          }
+        }
+      },
+      {
+        "type": "квартира",
+        "id": 2,
+        "attributes": {
+          "title": "Уютная",
+          "rooms": 2,
+          "area": 34
+        },
+
+        "img": "https://img3.goodfon.ru/original/1920x1408/6/33/interer-stil-dizayn-3092.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 10,
+          "attributes": {
+            "first_name": "Михаил",
+            "last_name": "Иванов",
+            "middle_name": "Демидович"
+          }
+        }
+      },
+      {
+        "type": "квартира",
+        "id": 3,
+        "attributes": {
+          "title": "Шикарная",
+          "rooms": 4,
+          "area": 134
+        },
+
+        "img": "https://uutvdome.ru/_pu/0/35229685.jpg",
+        "relationships": {
+          "type": "agent",
+          "id": 44,
+          "attributes": {
+            "first_name": "Степан",
+            "last_name": "Карачаев",
+            "middle_name": "Иванович"
+          }
+        }
+      }
+    ]
+  }
